@@ -2,7 +2,7 @@
 const acphone = '1-800-820-0184'; 
 
 document.getElementById("ac-call").innerHTML = `
-<p class="ac-tap-to-talk">Tap to Talk <span class="ac-phone">${acphone}</span></p>
+<p class="ac-tap-to-talk">Tap to Talk <a href="tel:+18008200184"><span class="ac-phone">${acphone}</span></a></p>
 <p><i class="fa fa-phone" aria-hidden="true"></i> Speak to Our Bone Health Specialists</p>
 `
 
