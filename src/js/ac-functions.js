@@ -1,3 +1,4 @@
+/* Display Phone + Speak to Specialists */
 const acphone = '1-800-820-0184'; 
 
 document.getElementById("ac-call").innerHTML = `
@@ -30,7 +31,7 @@ $(document).ready(function(){
                $('#back-to-top').fadeOut();
            }
        });
-       // Scroll to 0px on click...
+       // Scroll document (body) to 0px on click...
        $('#back-to-top').click(function () {
            $('#back-to-top').tooltip('hide');
            $('body,html').animate({
